@@ -6,7 +6,9 @@
 //
 
 import Foundation
+import SwiftData
 
+@Model //swiftdata က handle လုပ်ချင်လို့ @model ကိုသုံးတာ
 class Person {
     var name: String
     var emailAddress: String
